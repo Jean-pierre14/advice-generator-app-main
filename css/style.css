@@ -36,6 +36,11 @@ body {
   margin: auto;
   text-align: center;
 }
+@media (max-width: 375px) {
+  .attribution {
+    width: 95%;
+  }
+}
 
 .card {
   position: relative;
@@ -57,7 +62,8 @@ body {
 }
 .card .span {
   color: var(--NeonCreen);
-  letter-spacing: 2px;
+  letter-spacing: 5px;
+  font-size: 13px;
   text-align: center;
   margin: 0 0 20px 0;
 }
@@ -95,6 +101,9 @@ body {
   .card {
     width: 90%;
     margin: 100px auto;
+  }
+  .card .p {
+    font-size: 25px;
   }
   .card .mobile {
     display: block;
