@@ -78,6 +78,11 @@ body {
   width: 50px;
   height: 50px;
   background-color: var(--NeonCreen);
+  transition: all ease 0.3s;
+}
+.card .circle:hover, .card .circle:active, .card .circle:focus {
+  color: hsl(217deg, 19%, 24%);
+  box-shadow: 0 0 10px hsl(150deg, 96%, 64%), 0 0 25px hsl(150deg, 96%, 64%);
 }
 .card .circle img {
   position: absolute;
