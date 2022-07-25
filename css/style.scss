@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: var(--GrayishBlue);
+    background-color: var(--DarkBlue);
     font-family: var(--fontFamily);
 }
 
@@ -47,7 +47,7 @@ body {
     width: var(--mobile);
     border-radius: 1rem;
     margin: 100px auto;
-    background-color: var(--DarkBlue);
+    background-color: var(--GrayishBlue);
     .wrapper {
         padding: 30px;
     }
