@@ -44,10 +44,10 @@ body {
 
 .card {
   position: relative;
-  width: var(--mobile);
+  width: calc(var(--mobile) + 100px);
   border-radius: 1rem;
   margin: 100px auto;
-  background-color: var(--GrayishBlue);
+  background-color: var(--DarkGrayishBlue);
 }
 .card .wrapper {
   padding: 30px;
